@@ -30,3 +30,8 @@ el sistema tiene un sistema de registro de personal y adminsitrar el acceso a la
     nombre de usuario : root
     contraseña        : toor
 ```
+
+Cada interfaz tiene validaciones tanto en la parte del fron end en la validacion de los formularios y el back end por ejemplo en la apertura de las sesiones.
+
+Aun esta inconcluso pero es funcional.
+
