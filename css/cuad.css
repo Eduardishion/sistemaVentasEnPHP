@@ -1,0 +1,122 @@
+/*redonddeado de bordes*/
+.bordes{
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+}
+.sombra-form{
+    -webkit-box-shadow: 0px 0px 23px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 23px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 23px 0px rgba(0,0,0,0.75);
+}
+.sombra-abj{
+    -webkit-box-shadow: 0px 15px 23px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 15px 23px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 15px 23px 0px rgba(0,0,0,0.75);
+}
+/*sombras y degradados*/
+/*degradado de contenedores totales*/
+.degradado{
+    background: #ffffff; /* Old browsers */
+background: -moz-linear-gradient(top, #ffffff 0%, #d6f9ff 63%, #9ee8fa 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(63%,#d6f9ff), color-stop(100%,#9ee8fa)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #ffffff 0%,#d6f9ff 63%,#9ee8fa 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #ffffff 0%,#d6f9ff 63%,#9ee8fa 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, #ffffff 0%,#d6f9ff 63%,#9ee8fa 100%); /* IE10+ */
+background: linear-gradient(to bottom, #ffffff 0%,#d6f9ff 63%,#9ee8fa 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#9ee8fa',GradientType=0 ); /* IE6-9 */
+}
+/*sombra para imagenes*/
+.sombra_img{
+	-webkit-box-shadow: 0px 0px 21px 2px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 21px 2px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 21px 2px rgba(0,0,0,0.75);
+
+}
+/*bordes redondeados*/
+.borde_1{
+	border-radius: 20px 20px 20px 20px;
+	-moz-border-radius: 20px 20px 20px 20px;
+	-webkit-border-radius: 20px 20px 20px 20px;
+	border: 0px solid #000000;
+}
+
+
+/*fin sombras y degradados*/
+
+
+/*estilos de error*/
+
+.error{
+    background-color: #BC1010;
+    padding: 6px 12px;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+    margin-left: 16px;
+    margin-top: 6px;
+    position: absolute;
+}
+.error:before{ /* Este es un truco para crear una flechita */
+    content: '';
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    border-right: 8px solid #BC1010;
+    border-left: 8px solid transparent;
+    left: -16px;
+    position: absolute;
+    top: 5px;
+}		
+/*fin estilo de cuadro*/
+
+.sin_espacio{
+    padding:0;
+    border:0;
+    margin:0;
+}
+
+/* AJAX Gif y mensajes de exito o fracaso */
+.hide{
+    display: none;
+}
+.ajaxgif{
+    position: absolute;
+    right: 150px;
+    top: 5px;
+}
+.msg{
+    color: white;
+    font-weight: bold;
+    height: 32px;
+    line-height: 32px;
+    padding: 0 10px;
+    position: absolute;
+    right: -155px;
+    text-transform: uppercase;
+    min-width: 121px;
+}
+.msg_ok{
+    background: #589D05;
+}
+.msg_error{
+    background: red;
+}
+
+.msg_php_ok{
+    color: white;
+    font-weight: bold;
+    height: 32px;
+    line-height: 32px;
+    padding: 0 10px;
+    position: absolute;
+    text-transform: uppercase;
+    min-width: 121px;
+    background: #589D05;
+}
+/*quita los punto s a listas*/
+ul, li { list-style-type: none; }
+
+/* lista de carrito */
+.lista_conte{
+    background-color: #A4F435;
+}
