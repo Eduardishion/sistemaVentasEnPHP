@@ -1,4 +1,4 @@
-**Este es un sistema de ventas au**
+**Este es un sistema de ventas y inventario en PHP**
 
 Vista previa 
 
@@ -23,7 +23,10 @@ Se  se crea un usuario administrador que tiene permisos para agregar tanto produ
 el sistema tiene un sistema de registro de personal y adminsitrar el acceso a las interfaces.
 
 
+```
 
-
-
+**El usuario administrador es:**
+```
+    nombre de usuario : root
+    contraseña        : toor
 ```
