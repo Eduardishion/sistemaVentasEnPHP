@@ -17,6 +17,10 @@ Vista previa
 
 ![vista inicial](https://github.com/Eduardishion/sistemaVentasEnPHP/blob/master/ima2.png )
 
+![vista inicial]( 
+https://github.com/Eduardishion/sistemaVentasEnPHP/blob/master/zdocumentos/Captura%20de%20pantalla%20(38).png
+)
+
 ```
 Este es un proyecto escolar básico hecho en HTML, CSS, JQUERY, AJAX, PHP Y MYSQL, que hice hace mucho también pero que aplica las funciones básicas de CRUD, crear, mostrar, actualizar y eliminar.
 
