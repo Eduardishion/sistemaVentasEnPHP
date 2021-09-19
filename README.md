@@ -8,7 +8,7 @@ y son las siguientes:
 - PHP - Creación de páginas Web dinámicas BEATI, Hernán
 - Domine php y mysql - LÓPEZ, José	
 
-Las primeras dos referecnias las considero las mejores ya que contienen un sin fin de graficos muy ilustrativos de como es la arquitectura cliente servidor y cual su funcion en el modelo vista controlador, tienen de igual forma un conjunto de scripts muy bien explicados y son ejemplo muy ilustrativos, en esas referencias usaban php 5 pero es la misma logica que se usa en php 7 solo que cambia en alguos scrips se se desea migrar a php 7.  
+Las primeras dos referecnias las considero las mejores ya que contienen un sin fin de graficos muy ilustrativos de como es la arquitectura cliente servidor y cual su funcion en el modelo vista controlador, tienen de igual forma un conjunto de scripts muy bien explicados y son ejemplo muy ilustrativos, en esas referencias usaban php 5 pero es la misma logica que se usa en php 7 solo que cambia en alguos scripts si se desea migrar a php 7.  
 
 Vista previa 
 
